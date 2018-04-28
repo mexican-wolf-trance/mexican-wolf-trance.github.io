@@ -1,0 +1,17 @@
+body 
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+div.image
+{
+    background-image: url(/Project1/mexican-wolf-trance.github.io/img/syshardimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.header {
+    padding: 20px, 20px;
+    height: auto;
+}
