@@ -1,0 +1,330 @@
+body
+{
+    color: #CA9E89;
+    background-color: #161417;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0px !important;
+    height: 100%;
+    width: 100%;
+}
+header
+{
+    border-style: none none solid none;
+    background-image: url(/Project1/img/cybersec.jpg);
+    background-size: 100% 300px;
+    background-position: top center;
+    height: 200px;
+    position: relative;
+    top: 0;
+}
+#headerz
+{
+    text-align: center;
+    overflow: hidden;
+    margin-left: auto;
+    font-size: 35px;
+}
+div.full 
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 66.6667%;
+}
+.annoying
+{
+    padding: 0px;
+}
+h2 span
+{    
+    background-color: #161417;
+    margin-top: 0px;
+    color: #CA9E89;
+    display: inline-block;
+}
+h1
+{
+    color: #161417;
+}
+p
+{
+    color: #161417;
+}
+.newsBoxImg
+{
+    max-width: 100%;
+    height: auto;
+}
+.regimg
+{
+    background-image: url("/Project1/img/hack.jpg");
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+    color: #CA9E89;
+}
+@media only screen and (max-width: 800px)
+{
+    .regimg
+    {
+        height: 0px;
+        width: 0px;
+    }
+    
+}
+#moreBlack
+{
+    background-color: black;
+}
+#menu
+{
+    background-color: #CA9E89;
+    border-radius: 25%;
+    cursor: pointer;
+    padding: 0px 5px 0px 5px;
+    font-size: 20px;
+    color: #161417;
+}
+div a
+{
+    color: #CA9E89;
+    font-size: 20px;
+}
+a
+{
+    color: #161417;
+}
+a:hover
+{
+    color: #CA9E89;
+}
+#herecomesthebreadbutterofthispage
+{
+    height: 100%;
+}
+#newsbox2div
+{
+    height: 100%;
+}
+#thehomepagemenu
+{
+    margin-right: 0px;
+}
+.height
+{
+    height: 100px;
+}
+.footer
+{    
+    background-color: #CA9E89;
+    position: sticky;
+    width: 100%;
+    border-style: solid none none none;
+    margin:0px;
+}
+.footer a
+{
+    text-decoration: none;
+    color: black;
+    padding: 20px 0px 50px 100px;
+    font-size: 2rem;
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;    
+    text-align:center
+}
+.googleImg
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg");
+    background-size: 80% 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+.githubImg
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/2000px-GitHub_logo_2013.svg.png");
+    background-size: 80% 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+.facebookImg
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Facebook.svg/2000px-Facebook.svg.png");
+    background-size: 80% 70px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+}
+#options
+{
+    background-color: rgb(83, 4, 21);
+    height: 100%
+}
+.content
+{
+    border-style: none solid solid solid;
+    border-color: #161417;
+    background-color: #CA9E89;  
+    height: 100%;  
+}
+label
+{
+    color: #CA9E89;
+}
+#email
+{
+    color: #CA9E89;
+}
+#main
+{
+    position: relative;
+}
+.errorInput
+{
+    color: red;
+    border-color: red;
+    font-size: 11px;
+}
+.correctInput
+{
+    color: green;
+    border-color: green;
+    font-size: 11px;
+}
+table
+{
+    border: 2px solid #CA9E89;
+    font-size: 16px;
+    color: black;
+}
+#soIhadtospecify1padding
+{
+    font-size: 60px;
+    /*width: 100%
+    padding-top: 150px;*/
+}
+.makeItFull 
+{
+    /*border: 2px solid #CA9E89;*/
+    height: 500px;
+}
+td
+{
+    padding: 5px 10px 10px 10px;
+}
+.gender1
+{
+    padding: 5px 10px 0px 10px;
+}
+.gender2
+{
+    padding: 5px 0px 10px 10px;
+}
+#animDiv
+{
+    display: block;
+    margin: 120px auto;
+    text-align: center;
+    font-size: 50px;
+    color: #161417;
+}
+@media screen and (max-width: 992px) 
+{
+    .hideMenu 
+    {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 992px) 
+{
+    #menu 
+    {
+        display: none !important;
+    }
+}
+.animation
+{
+    max-width: 100%;
+    max-height: 100%;
+   
+    -webkit-animation-name: seizures; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    animation-name: seizures;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes seizures 
+{
+    0%   {background-color: black;}
+    25%  {background-color: white;}
+    50%  {background-color: black;}
+    100% {background-color: white;}
+}
+
+/* Standard syntax */
+@keyframes seizures
+{
+    0%   {background-color: black;}
+    25%  {background-color: white;}
+    50%  {background-color: black;}
+    100% {background-color: white;}
+}
+
+ /* The side navigation menu */
+ .sidenav 
+ {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #161417; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #CA9E89;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover 
+{
+    color: #F0DBB6;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main
+{
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
