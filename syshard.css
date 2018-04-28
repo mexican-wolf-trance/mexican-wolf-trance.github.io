@@ -5,13 +5,24 @@ body
 
 div.image
 {
-    background-image: url(/img/syshardimg.JPG);
+    background-image: url(/Project1/mexican-wolf-trance.github.io/img/syshardimg.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
 }
 
 .header {
-    padding: 20px, 20px;
+    border-style: none none solid none;
+    padding: 20px 20px;
     height: auto;
+}
+div.button
+{
+    padding-top: 20px;
+}
+button
+{
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
 }
