@@ -3,9 +3,8 @@ body
     font-family: Helvetica, Arial, sans-serif;
 }
 
-div.image
-{
-    background-image: url(/Project1/mexican-wolf-trance.github.io/img/syshardimg.JPG);
+div.image {
+    background-image: url(/img/syshardimg.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
