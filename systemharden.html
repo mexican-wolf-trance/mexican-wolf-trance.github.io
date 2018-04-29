@@ -21,9 +21,49 @@
         <div class="row header">
             <h1>WELCOME TO SYSTEM HARDENING</h1>
         </div>
-        <div class="row button">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Navigation:</a>
+                </div>
+                <div class="collapse navbar-collapse" align="center" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="buttons button"><button class="btn navbar-btn" data-link="about">About</button></li>
+                        <li class="buttons button"><button class="btn navbar-btn" data-link="socEng">Social Engineering</button></li>
+                        <li class="buttons button"><button class="btn navbar-btn"data-link="softHard">Software Hardening</button></li>
+                        <li class="buttons button"><button class="btn navbar-btn"data-link="netHard">Network Hardening</button></li>
+                        <li class="buttons button"><button class="btn navbar-btn"data-link="userTrain">User Training</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="row button topnav" id="myTopnav">
+              <button class="btn navbar-btn">About</button>
+              <button class="btn navbar-btn">Social Engineering</button>
+              <button class="btn navbar-btn">Software Hardening</button>
+              <button class="btn navbar-btn">Network Hardening</button>
+              <button class="btn navbar-btn">User Training</button>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="topNav()">&#9776;</a>
+          </div>
+          <!--  <div class="row button">
             <button>About</button><button>Social Engineering</button><button>Software Hardening</button><button>Network Hardening</button><button>User Training</button>
-        </div>
+        </div>-->
+    </div>
+    <div id="info">
+
+    </div>
+
+    <div id="hiddenDivs" style="display:none;">
+        <div class="info" id="about"><div class="text-center"><h2>Hello to about page</h2></div></div>
+        <div class="info" id="socEng"><div><h2>This social engineering</h2></div></div>
+        <div class="info" id="softHard"><div></div></div>
+        <div class="info" id="netHard"><div></div></div>
+        <div class="info" id="userTrain"><div></div></div>
     </div>
 </body>
 </html>
