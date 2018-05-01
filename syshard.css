@@ -24,7 +24,7 @@ div.xkcd {
 
 }
 div.info {
-    background-image: url(img/infograph.PNG);
+    background-image: url(img/infograph.png);
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
