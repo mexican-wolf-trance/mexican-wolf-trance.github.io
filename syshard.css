@@ -12,14 +12,26 @@ div.image
 }
 div.image2 {
     background-color: black;
+    min-height: 500px;
+}
+div.xkcd {
+    background-image: url(img/xkcd.JPG);
+    background-size: auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
     height: 500px;
+
 }
 div.slide
 {
     min-height: 500px;
     background-color: white;
 }
-
+div.questions
+{
+    background-color: white;
+}
 .header 
 {
     border-style: none none solid none;
@@ -40,6 +52,10 @@ li.size
 {
     font-size: 20px;
     margin: 0px 20px 40px 20px;
+}
+li.margin
+{
+    margin-left: 100px;
 }
 
 button:hover
