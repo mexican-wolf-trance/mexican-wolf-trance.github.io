@@ -11,9 +11,7 @@ div.image
     height: 300px;
 }
 div.image2 {
-    background-image: url(img/kaspimg.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
     height: 500px;
 }
 div.slide
