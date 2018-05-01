@@ -66,6 +66,11 @@ li.size
     margin: 0px 20px 40px 20px;
 }
 
+li.size2 {
+    font-size: 20px;
+    margin: 0px 20px 5px 20px;
+}
+
 li.margin 
 {
     margin-left: 100px;
