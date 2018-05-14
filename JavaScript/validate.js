@@ -43,14 +43,13 @@ $( function()
         });
     }
  );
- $( function() {
-    $( document ).tooltip({
+$(function () {
+    $(document).tooltip({
         hide: { effect: "explode", duration: 1000 },
-        show: { effect: "slideDown", delay: 500   },
+        show: { effect: "slideDown", delay: 500 },
         track: false
     });
 });
-/*
  function validateUserName(ele)
  {
      var userValue = ele.value;
@@ -519,7 +518,7 @@ $( function()
             ele.classList.add('correctInput');
             errorEle.classList.add('correctInput');
             errorEle.innerHTML = "&#10003";
-            /*if (userValue.length = 10)
+            if (userValue.length = 10)
             function formatZipCode()
             {
                 ele.value.replace(/(\d{5)(\d{5})/, "$1-$2");
@@ -536,9 +535,9 @@ $( function()
      (123) 456-7890
      123 456 7890
      123.456.7890
-     +91 (123) 456-7890//
+     +91 (123) 456-7890*/
      var userValue = ele.value;
-     /*if (userValue.length != 10)
+     if (userValue.length != 10)
      {
         var errorEle = document.getElementById("telephoneError");
         if (errorEle)
@@ -551,7 +550,7 @@ $( function()
             //ele.focus();
             //setTimeout(function(){ ele.focus(); }, 500);
         }
-     }//
+     }
      if (!regexPhone.test(userValue))
      {
         var errorEle = document.getElementById("telephoneError");
@@ -655,4 +654,3 @@ $( function()
          }
      }
 }
-*/

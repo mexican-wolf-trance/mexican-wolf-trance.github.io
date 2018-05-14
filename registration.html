@@ -121,7 +121,7 @@
 							 <label for="city" id="city">City:  </label>
 						</td>
 						<td>
-							 <input type="text"  id="city" onblur="validateCity(this) ;" name="city" title="Please enter the name of your city" value="<?php echo isset($_POST["city"]) ? $_POST["city"] : ''; ?>" required/>
+							 <input type="text"  id="city" onblur="validateCity(this) ;" name="city" title="Please enter the name of your city" value="" required/>
 							 <span id="cityError" class="" ></span>
 						</td>
 					</tr>
@@ -269,7 +269,7 @@
 							<label for="blog" id="bLog">Enter your soul:</label>
 						</td>
 						<td>
-							<textarea id="blog" name="blog" placeholder="Tell me everything..." value=""</textarea>
+							<textarea id="blog" name="blog" placeholder="Tell me everything..." value=""></textarea>
 						</td>
 					</tr>
 					<tr>
