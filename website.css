@@ -10,7 +10,7 @@ body
 header
 {
     border-style: none none solid none;
-    background-image: url(img/cybersec.jpg);
+    background-image: url(/Project1/img/cybersec.jpg);
     background-size: 100% 300px;
     background-position: top center;
     height: 200px;
@@ -56,8 +56,9 @@ p
 }
 .regimg
 {
-    background-image: url(img/hack.jpg);
+    background-image: url("/Project1/img/hack.jpg");
     background-size: 300px 300px;
+    background-repeat: no-repeat;
     height: 300px;
     width: 300px;
     color: #CA9E89;
@@ -179,6 +180,10 @@ label
 #main
 {
     position: relative;
+}
+div.divsize
+{
+    min-height: 500px;
 }
 .errorInput
 {
